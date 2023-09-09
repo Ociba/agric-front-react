@@ -57,7 +57,7 @@ class Header extends Component {
                         <div className="row">
                             <div className="col">
                                 <div className="site-logo">
-                                    <a href="index.html"><img src="img/logo.png" alt="Logo"/></a>
+                                    <a href="index.html"><img src="logo2.png" style={{borderRadius:'50%',height:'80px',with:'80px'}} alt="Logo"/></a>
                                 </div>
                             </div>
                             <div className="col header-contact-serarch-column d-none d-lg-block">
@@ -158,7 +158,7 @@ class Header extends Component {
                             <div className="col header-menu-column justify-content-center">
                                 <div className="sticky-logo">
                                     <div className="site-logo">
-                                        <a href="index.html"><img src="img/logo-2.png" alt="Logo"/></a>
+                                        <a href="index.html"><img src="logo2.png" style={{borderRadius:'50%',height:'80px',with:'80px'}} alt="Logo"/></a>
                                     </div>
                                 </div>
                                 <div className="header-menu header-menu-2">
@@ -293,7 +293,7 @@ class Header extends Component {
                                                         </li>
                                                     </ul>
                                                 </li>
-                                                <li><a href="contact.html">Contact</a></li>
+                                                <li><a href="http://localhost:8000/">Login | Register Now</a></li>
                                             </ul>
                                         </div>
                                     </nav>

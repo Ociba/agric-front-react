@@ -91,7 +91,7 @@ class Menu extends Component {
                                 <li><a href="coming-soon.html">Coming Soon</a></li>
                             </ul>
                         </li>
-                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="http://localhost:8000">Login | Register Now</a></li>
                     </ul>
                 </div>
                 <div className="ltn__utilize-buttons ltn__utilize-buttons-2">
