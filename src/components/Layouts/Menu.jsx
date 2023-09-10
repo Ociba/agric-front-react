@@ -18,36 +18,9 @@ class Menu extends Component {
                 </div>
                 <div className="ltn__utilize-menu">
                     <ul>
-                        <li><a href="#">Home</a>
-                            <ul className="sub-menu">
-                                <li><a href="index.html">Home Pages 01</a></li>
-                                <li><a href="index-2.html">Home Pages 02</a></li>
-                                <li><a href="index-3.html">Home Pages 03</a></li>
-                                <li><a href="index-4.html">Home Pages 04</a></li>
-                                <li><a href="index-5.html">Home Pages 05  <span className="menu-item-badge">video</span></a></li>
-                                <li><a href="index-6.html">Home Pages 06</a></li>
-                                <li><a href="index-7.html">Home Pages 07</a></li>
-                                <li><a href="index-8.html">Home Pages 08</a></li>
-                                <li><a href="index-9.html">Home Pages 09</a></li>
-                                <li><a href="index-10.html">Home Pages 10</a></li>
-                                <li><a href="index-11.html">Home Pages 11 <span className="menu-item-badge">Service</span></a></li>
-                            </ul>
-                        </li>
-                        <li><a href="#">About</a>
-                            <ul className="sub-menu">
-                                <li><a href="about.html">About</a></li>
-                                <li><a href="service.html">Services</a></li>
-                                <li><a href="service-details.html">Service Details</a></li>
-                                <li><a href="portfolio.html">Portfolio</a></li>
-                                <li><a href="portfolio-2.html">Portfolio - 02</a></li>
-                                <li><a href="portfolio-details.html">Portfolio Details</a></li>
-                                <li><a href="team.html">Team</a></li>
-                                <li><a href="team-details.html">Team Details</a></li>
-                                <li><a href="faq.html">FAQ</a></li>
-                                <li><a href="locations.html">Google Map Locations</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="#">Shop</a>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Shop Now</a>
                             <ul className="sub-menu">
                                 <li><a href="shop.html">Shop</a></li>
                                 <li><a href="shop-grid.html">Shop Grid</a></li>
@@ -63,34 +36,8 @@ class Menu extends Component {
                                 <li><a href="register.html">Register</a></li>
                             </ul>
                         </li>
-                        <li><a href="#">News</a>
-                            <ul className="sub-menu">
-                                <li><a href="blog.html">News</a></li>
-                                <li><a href="blog-grid.html">News Grid</a></li>
-                                <li><a href="blog-left-sidebar.html">News Left sidebar</a></li>
-                                <li><a href="blog-right-sidebar.html">News Right sidebar</a></li>
-                                <li><a href="blog-details.html">News details</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="#">Pages</a>
-                            <ul className="sub-menu">
-                                <li><a href="about.html">About</a></li>
-                                <li><a href="service.html">Services</a></li>
-                                <li><a href="service-details.html">Service Details</a></li>
-                                <li><a href="portfolio.html">Portfolio</a></li>
-                                <li><a href="portfolio-2.html">Portfolio - 02</a></li>
-                                <li><a href="portfolio-details.html">Portfolio Details</a></li>
-                                <li><a href="team.html">Team</a></li>
-                                <li><a href="team-details.html">Team Details</a></li>
-                                <li><a href="faq.html">FAQ</a></li>
-                                <li><a href="history.html">History</a></li>
-                                <li><a href="contact.html">Appointment</a></li>
-                                <li><a href="locations.html">Google Map Locations</a></li>
-                                <li><a href="404.html">404</a></li>
-                                <li><a href="contact.html">Contact</a></li>
-                                <li><a href="coming-soon.html">Coming Soon</a></li>
-                            </ul>
-                        </li>
+                        <li><a href="#">Gallery</a></li>
+                        <li><a href="#">Equipments</a></li>
                         <li><a href="http://localhost:8000">Login | Register Now</a></li>
                     </ul>
                 </div>
