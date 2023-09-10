@@ -1,4 +1,5 @@
 import Raect,{Component} from 'react';
+import {Link} from 'react-router-dom';
 
 class OurProducts extends Component{
     render(){
@@ -27,7 +28,7 @@ class OurProducts extends Component{
                                     <div class="col-lg-12">
                                         <div class="ltn__product-item ltn__product-item-3 text-center">
                                             <div class="product-img">
-                                                <a href="product-details.html"><img src="img/product/11.png" alt="#"/></a>
+                                                <Link to="/product-details"><img src="img/product/11.png" alt="#"/></Link>
                                                 <div class="product-badge">
                                                     <ul>
                                                         <li class="sale-badge">-19%</li>
@@ -63,7 +64,7 @@ class OurProducts extends Component{
                                                         <li class="review-total"> <a href="#"> (24)</a></li>
                                                     </ul>
                                                 </div>
-                                                <h2 class="product-title"><a href="product-details.html">Carrots Group Scal</a></h2>
+                                                <h2 class="product-title"><Link to="/product-details">Carrots Group Scal</Link></h2>
                                                 <div class="product-price">
                                                     <span>$32.00</span>
                                                     <del>$46.00</del>
@@ -72,7 +73,7 @@ class OurProducts extends Component{
                                         </div>
                                         <div class="ltn__product-item ltn__product-item-3 text-center">
                                             <div class="product-img">
-                                                <a href="product-details.html"><img src="img/product/7.png" alt="#"/></a>
+                                                <Link to="/product-details"><img src="img/product/7.png" alt="#"/></Link>
                                                 <div class="product-badge">
                                                     <ul>
                                                         <li class="sale-badge">New</li>
@@ -107,7 +108,7 @@ class OurProducts extends Component{
                                                         <li><a href="#"><i class="far fa-star"></i></a></li>
                                                     </ul>
                                                 </div>
-                                                <h2 class="product-title"><a href="product-details.html">Poltry Farm Meat</a></h2>
+                                                <h2 class="product-title"><Link to="/product-details">Poltry Farm Meat</Link></h2>
                                                 <div class="product-price">
                                                     <span>$78.00</span>
                                                     <del>$85.00</del>
@@ -118,7 +119,7 @@ class OurProducts extends Component{
                                     <div class="col-lg-12">
                                         <div class="ltn__product-item ltn__product-item-3 text-center">
                                             <div class="product-img">
-                                                <a href="product-details.html"><img src="img/product/12.png" alt="#"/></a>
+                                                <Link to="/product-details"><img src="img/product/12.png" alt="#"/></Link>
                                                 <div class="product-badge">
                                                     <ul>
                                                         <li class="sale-badge">-19%</li>
@@ -154,7 +155,7 @@ class OurProducts extends Component{
                                                         <li class="review-total"> <a href="#"> (24)</a></li>
                                                     </ul>
                                                 </div>
-                                                <h2 class="product-title"><a href="product-details.html">Carrots Group Scal</a></h2>
+                                                <h2 class="product-title"><Link to="/product-details">Carrots Group Scal</Link></h2>
                                                 <div class="product-price">
                                                     <span>$32.00</span>
                                                     <del>$46.00</del>
@@ -163,7 +164,7 @@ class OurProducts extends Component{
                                         </div>
                                         <div class="ltn__product-item ltn__product-item-3 text-center">
                                             <div class="product-img">
-                                                <a href="product-details.html"><img src="img/product/8.png" alt="#"/></a>
+                                                <Link to="/product-details"><img src="img/product/8.png" alt="#"/></Link>
                                                 <div class="product-badge">
                                                     <ul>
                                                         <li class="sale-badge">New</li>
@@ -198,7 +199,7 @@ class OurProducts extends Component{
                                                         <li><a href="#"><i class="far fa-star"></i></a></li>
                                                     </ul>
                                                 </div>
-                                                <h2 class="product-title"><a href="product-details.html">Orange Sliced Mix</a></h2>
+                                                <h2 class="product-title"><Link to="/product-details">Orange Sliced Mix</Link></h2>
                                                 <div class="product-price">
                                                     <span>$150.00</span>
                                                     <del>$180.00</del>
@@ -209,7 +210,7 @@ class OurProducts extends Component{
                                     <div class="col-lg-12">
                                         <div class="ltn__product-item ltn__product-item-3 text-center">
                                             <div class="product-img">
-                                                <a href="product-details.html"><img src="img/product/13.png" alt="#"/></a>
+                                                <Link to="/product-details"><img src="img/product/13.png" alt="#"/></Link>
                                                 <div class="product-badge">
                                                     <ul>
                                                         <li class="sale-badge">New</li>
@@ -244,7 +245,7 @@ class OurProducts extends Component{
                                                         <li><a href="#"><i class="far fa-star"></i></a></li>
                                                     </ul>
                                                 </div>
-                                                <h2 class="product-title"><a href="product-details.html">Orange Fresh Juice</a></h2>
+                                                <h2 class="product-title"><Link to="/product-details">Orange Fresh Juice</Link></h2>
                                                 <div class="product-price">
                                                     <span>$75.00</span>
                                                     <del>$92.00</del>
@@ -253,7 +254,7 @@ class OurProducts extends Component{
                                         </div>
                                         <div class="ltn__product-item ltn__product-item-3 text-center">
                                             <div class="product-img">
-                                                <a href="product-details.html"><img src="img/product/9.png" alt="#"/></a>
+                                                <Link to="/product-details"><img src="img/product/9.png" alt="#"/></Link>
                                                 <div class="product-badge">
                                                     <ul>
                                                         <li class="sale-badge">-19%</li>
@@ -289,7 +290,7 @@ class OurProducts extends Component{
                                                         <li class="review-total"> <a href="#"> (24)</a></li>
                                                     </ul>
                                                 </div>
-                                                <h2 class="product-title"><a href="product-details.html">Carrots Group Scal</a></h2>
+                                                <h2 class="product-title"><Link to="/product-details">Carrots Group Scal</Link></h2>
                                                 <div class="product-price">
                                                     <span>$32.00</span>
                                                     <del>$46.00</del>
@@ -300,7 +301,7 @@ class OurProducts extends Component{
                                     <div class="col-lg-12">
                                         <div class="ltn__product-item ltn__product-item-3 text-center">
                                             <div class="product-img">
-                                                <a href="product-details.html"><img src="img/product/14.png" alt="#"/></a>
+                                                <Link to="/product-details"><img src="img/product/14.png" alt="#"/></Link>
                                                 <div class="product-badge">
                                                     <ul>
                                                         <li class="sale-badge">New</li>
@@ -335,7 +336,7 @@ class OurProducts extends Component{
                                                         <li><a href="#"><i class="far fa-star"></i></a></li>
                                                     </ul>
                                                 </div>
-                                                <h2 class="product-title"><a href="product-details.html">Poltry Farm Meat</a></h2>
+                                                <h2 class="product-title"><Link to="/product-details">Poltry Farm Meat</Link></h2>
                                                 <div class="product-price">
                                                     <span>$78.00</span>
                                                     <del>$85.00</del>
@@ -344,7 +345,7 @@ class OurProducts extends Component{
                                         </div>
                                         <div class="ltn__product-item ltn__product-item-3 text-center">
                                             <div class="product-img">
-                                                <a href="product-details.html"><img src="img/product/10.png" alt="#"/></a>
+                                                <Link to="/product-details"><img src="img/product/10.png" alt="#"/></Link>
                                                 <div class="product-badge">
                                                     <ul>
                                                         <li class="sale-badge">New</li>
@@ -379,7 +380,7 @@ class OurProducts extends Component{
                                                         <li><a href="#"><i class="far fa-star"></i></a></li>
                                                     </ul>
                                                 </div>
-                                                <h2 class="product-title"><a href="product-details.html">Orange Fresh Juice</a></h2>
+                                                <h2 class="product-title"><Link to="/product-details">Orange Fresh Juice</Link></h2>
                                                 <div class="product-price">
                                                     <span>$75.00</span>
                                                     <del>$92.00</del>
@@ -390,7 +391,7 @@ class OurProducts extends Component{
                                     <div class="col-lg-12">
                                         <div class="ltn__product-item ltn__product-item-3 text-center">
                                             <div class="product-img">
-                                                <a href="product-details.html"><img src="img/product/15.png" alt="#"/></a>
+                                                <Link to="/product-details"><img src="img/product/15.png" alt="#"/></Link>
                                                 <div class="product-badge">
                                                     <ul>
                                                         <li class="sale-badge">New</li>
@@ -425,7 +426,7 @@ class OurProducts extends Component{
                                                         <li><a href="#"><i class="far fa-star"></i></a></li>
                                                     </ul>
                                                 </div>
-                                                <h2 class="product-title"><a href="product-details.html">Fresh Butter Cake</a></h2>
+                                                <h2 class="product-title"><Link to="/product-details">Fresh Butter Cake</Link></h2>
                                                 <div class="product-price">
                                                     <span>$150.00</span>
                                                     <del>$180.00</del>
@@ -434,7 +435,7 @@ class OurProducts extends Component{
                                         </div>
                                         <div class="ltn__product-item ltn__product-item-3 text-center">
                                             <div class="product-img">
-                                                <a href="product-details.html"><img src="img/product/6.png" alt="#"/></a>
+                                                <Link to="/product-details"><img src="img/product/6.png" alt="#"/></Link>
                                                 <div class="product-badge">
                                                     <ul>
                                                         <li class="sale-badge">-19%</li>
@@ -470,7 +471,7 @@ class OurProducts extends Component{
                                                         <li class="review-total"> <a href="#"> (24)</a></li>
                                                     </ul>
                                                 </div>
-                                                <h2 class="product-title"><a href="product-details.html">Carrots Group Scal</a></h2>
+                                                <h2 class="product-title"><Link to="/product-details">Carrots Group Scal</Link></h2>
                                                 <div class="product-price">
                                                     <span>$32.00</span>
                                                     <del>$46.00</del>
@@ -481,7 +482,7 @@ class OurProducts extends Component{
                                     <div class="col-lg-12">
                                         <div class="ltn__product-item ltn__product-item-3 text-center">
                                             <div class="product-img">
-                                                <a href="product-details.html"><img src="img/product/7.png" alt="#"/></a>
+                                                <Link to="/product-details"><img src="img/product/7.png" alt="#"/></Link>
                                                 <div class="product-badge">
                                                     <ul>
                                                         <li class="sale-badge">New</li>
@@ -516,7 +517,7 @@ class OurProducts extends Component{
                                                         <li><a href="#"><i class="far fa-star"></i></a></li>
                                                     </ul>
                                                 </div>
-                                                <h2 class="product-title"><a href="product-details.html">Orange Sliced Mix</a></h2>
+                                                <h2 class="product-title"><Link to="/product-details">Orange Sliced Mix</Link></h2>
                                                 <div class="product-price">
                                                     <span>$150.00</span>
                                                     <del>$180.00</del>
@@ -525,7 +526,7 @@ class OurProducts extends Component{
                                         </div>
                                         <div class="ltn__product-item ltn__product-item-3 text-center">
                                             <div class="product-img">
-                                                <a href="product-details.html"><img src="img/product/11.png" alt="#"/></a>
+                                                <Link to="/product-details"><img src="img/product/11.png" alt="#"/></Link>
                                                 <div class="product-badge">
                                                     <ul>
                                                         <li class="sale-badge">-19%</li>
@@ -561,7 +562,7 @@ class OurProducts extends Component{
                                                         <li class="review-total"> <a href="#"> (24)</a></li>
                                                     </ul>
                                                 </div>
-                                                <h2 class="product-title"><a href="product-details.html">Carrots Group Scal</a></h2>
+                                                <h2 class="product-title"><Link to="/product-details">Carrots Group Scal</Link></h2>
                                                 <div class="product-price">
                                                     <span>$32.00</span>
                                                     <del>$46.00</del>
@@ -578,7 +579,7 @@ class OurProducts extends Component{
                                     <div class="col-lg-12">
                                         <div class="ltn__product-item ltn__product-item-3 text-center">
                                             <div class="product-img">
-                                                <a href="product-details.html"><img src="img/product/16.png" alt="#"/></a>
+                                                <Link to="/product-details"><img src="img/product/16.png" alt="#"/></Link>
                                                 <div class="product-badge">
                                                     <ul>
                                                         <li class="sale-badge">-19%</li>
@@ -614,7 +615,7 @@ class OurProducts extends Component{
                                                         <li class="review-total"> <a href="#"> (24)</a></li>
                                                     </ul>
                                                 </div>
-                                                <h2 class="product-title"><a href="product-details.html">Carrots Group Scal</a></h2>
+                                                <h2 class="product-title"><Link to="/product-details">Carrots Group Scal</Link></h2>
                                                 <div class="product-price">
                                                     <span>$32.00</span>
                                                     <del>$46.00</del>
@@ -623,7 +624,7 @@ class OurProducts extends Component{
                                         </div>
                                         <div class="ltn__product-item ltn__product-item-3 text-center">
                                             <div class="product-img">
-                                                <a href="product-details.html"><img src="img/product/10.png" alt="#"/></a>
+                                                <Link to="/product-details"><img src="img/product/10.png" alt="#"/></Link>
                                                 <div class="product-badge">
                                                     <ul>
                                                         <li class="sale-badge">New</li>
@@ -658,7 +659,7 @@ class OurProducts extends Component{
                                                         <li><a href="#"><i class="far fa-star"></i></a></li>
                                                     </ul>
                                                 </div>
-                                                <h2 class="product-title"><a href="product-details.html">Poltry Farm Meat</a></h2>
+                                                <h2 class="product-title"><Link to="/product-details">Poltry Farm Meat</Link></h2>
                                                 <div class="product-price">
                                                     <span>$78.00</span>
                                                     <del>$85.00</del>
@@ -669,7 +670,7 @@ class OurProducts extends Component{
                                     <div class="col-lg-12">
                                         <div class="ltn__product-item ltn__product-item-3 text-center">
                                             <div class="product-img">
-                                                <a href="product-details.html"><img src="img/product/15.png" alt="#"/></a>
+                                                <Link to="/product-details"><img src="img/product/15.png" alt="#"/></Link>
                                                 <div class="product-badge">
                                                     <ul>
                                                         <li class="sale-badge">-19%</li>
@@ -705,7 +706,7 @@ class OurProducts extends Component{
                                                         <li class="review-total"> <a href="#"> (24)</a></li>
                                                     </ul>
                                                 </div>
-                                                <h2 class="product-title"><a href="product-details.html">Carrots Group Scal</a></h2>
+                                                <h2 class="product-title"><Link to="/product-details">Carrots Group Scal</Link></h2>
                                                 <div class="product-price">
                                                     <span>$32.00</span>
                                                     <del>$46.00</del>
@@ -714,7 +715,7 @@ class OurProducts extends Component{
                                         </div>
                                         <div class="ltn__product-item ltn__product-item-3 text-center">
                                             <div class="product-img">
-                                                <a href="product-details.html"><img src="img/product/9.png" alt="#"/></a>
+                                                <Link to="/product-details"><img src="img/product/9.png" alt="#"/></Link>
                                                 <div class="product-badge">
                                                     <ul>
                                                         <li class="sale-badge">New</li>
@@ -749,7 +750,7 @@ class OurProducts extends Component{
                                                         <li><a href="#"><i class="far fa-star"></i></a></li>
                                                     </ul>
                                                 </div>
-                                                <h2 class="product-title"><a href="product-details.html">Orange Sliced Mix</a></h2>
+                                                <h2 class="product-title"><Link to="/product-details">Orange Sliced Mix</Link></h2>
                                                 <div class="product-price">
                                                     <span>$150.00</span>
                                                     <del>$180.00</del>
@@ -760,7 +761,7 @@ class OurProducts extends Component{
                                     <div class="col-lg-12">
                                         <div class="ltn__product-item ltn__product-item-3 text-center">
                                             <div class="product-img">
-                                                <a href="product-details.html"><img src="img/product/14.png" alt="#"/></a>
+                                                <Link to="/product-details"><img src="img/product/14.png" alt="#"/></Link>
                                                 <div class="product-badge">
                                                     <ul>
                                                         <li class="sale-badge">New</li>
@@ -795,7 +796,7 @@ class OurProducts extends Component{
                                                         <li><a href="#"><i class="far fa-star"></i></a></li>
                                                     </ul>
                                                 </div>
-                                                <h2 class="product-title"><a href="product-details.html">Orange Fresh Juice</a></h2>
+                                                <h2 class="product-title"><Link to="/product-details">Orange Fresh Juice</Link></h2>
                                                 <div class="product-price">
                                                     <span>$75.00</span>
                                                     <del>$92.00</del>
@@ -804,7 +805,7 @@ class OurProducts extends Component{
                                         </div>
                                         <div class="ltn__product-item ltn__product-item-3 text-center">
                                             <div class="product-img">
-                                                <a href="product-details.html"><img src="img/product/8.png" alt="#"/></a>
+                                                <Link to="/product-details"><img src="img/product/8.png" alt="#"/></Link>
                                                 <div class="product-badge">
                                                     <ul>
                                                         <li class="sale-badge">-19%</li>
@@ -840,7 +841,7 @@ class OurProducts extends Component{
                                                         <li class="review-total"> <a href="#"> (24)</a></li>
                                                     </ul>
                                                 </div>
-                                                <h2 class="product-title"><a href="product-details.html">Carrots Group Scal</a></h2>
+                                                <h2 class="product-title"><Link to="/product-details">Carrots Group Scal</Link></h2>
                                                 <div class="product-price">
                                                     <span>$32.00</span>
                                                     <del>$46.00</del>
@@ -851,7 +852,7 @@ class OurProducts extends Component{
                                     <div class="col-lg-12">
                                         <div class="ltn__product-item ltn__product-item-3 text-center">
                                             <div class="product-img">
-                                                <a href="product-details.html"><img src="img/product/13.png" alt="#"/></a>
+                                                <Link to="/product-details"><img src="img/product/13.png" alt="#"/></Link>
                                                 <div class="product-badge">
                                                     <ul>
                                                         <li class="sale-badge">New</li>
@@ -886,7 +887,7 @@ class OurProducts extends Component{
                                                         <li><a href="#"><i class="far fa-star"></i></a></li>
                                                     </ul>
                                                 </div>
-                                                <h2 class="product-title"><a href="product-details.html">Poltry Farm Meat</a></h2>
+                                                <h2 class="product-title"><Link to="/product-details">Poltry Farm Meat</Link></h2>
                                                 <div class="product-price">
                                                     <span>$78.00</span>
                                                     <del>$85.00</del>
@@ -895,7 +896,7 @@ class OurProducts extends Component{
                                         </div>
                                         <div class="ltn__product-item ltn__product-item-3 text-center">
                                             <div class="product-img">
-                                                <a href="product-details.html"><img src="img/product/10.png" alt="#"/></a>
+                                                <Link to="/product-details"><img src="img/product/10.png" alt="#"/></Link>
                                                 <div class="product-badge">
                                                     <ul>
                                                         <li class="sale-badge">New</li>
@@ -930,7 +931,7 @@ class OurProducts extends Component{
                                                         <li><a href="#"><i class="far fa-star"></i></a></li>
                                                     </ul>
                                                 </div>
-                                                <h2 class="product-title"><a href="product-details.html">Orange Fresh Juice</a></h2>
+                                                <h2 class="product-title"><Link to="/product-details">Orange Fresh Juice</Link></h2>
                                                 <div class="product-price">
                                                     <span>$75.00</span>
                                                     <del>$92.00</del>
@@ -941,7 +942,7 @@ class OurProducts extends Component{
                                     <div class="col-lg-12">
                                         <div class="ltn__product-item ltn__product-item-3 text-center">
                                             <div class="product-img">
-                                                <a href="product-details.html"><img src="img/product/15.png" alt="#"/></a>
+                                                <Link to="/product-details"><img src="img/product/15.png" alt="#"/></Link>
                                                 <div class="product-badge">
                                                     <ul>
                                                         <li class="sale-badge">New</li>
@@ -976,7 +977,7 @@ class OurProducts extends Component{
                                                         <li><a href="#"><i class="far fa-star"></i></a></li>
                                                     </ul>
                                                 </div>
-                                                <h2 class="product-title"><a href="product-details.html">Fresh Butter Cake</a></h2>
+                                                <h2 class="product-title"><Link to="/product-details">Fresh Butter Cake</Link></h2>
                                                 <div class="product-price">
                                                     <span>$150.00</span>
                                                     <del>$180.00</del>
@@ -985,7 +986,7 @@ class OurProducts extends Component{
                                         </div>
                                         <div class="ltn__product-item ltn__product-item-3 text-center">
                                             <div class="product-img">
-                                                <a href="product-details.html"><img src="img/product/6.png" alt="#"/></a>
+                                                <Link to="/product-details"><img src="img/product/6.png" alt="#"/></Link>
                                                 <div class="product-badge">
                                                     <ul>
                                                         <li class="sale-badge">-19%</li>
@@ -1021,7 +1022,7 @@ class OurProducts extends Component{
                                                         <li class="review-total"> <a href="#"> (24)</a></li>
                                                     </ul>
                                                 </div>
-                                                <h2 class="product-title"><a href="product-details.html">Carrots Group Scal</a></h2>
+                                                <h2 class="product-title"><Link to="/product-details">Carrots Group Scal</Link></h2>
                                                 <div class="product-price">
                                                     <span>$32.00</span>
                                                     <del>$46.00</del>
@@ -1032,7 +1033,7 @@ class OurProducts extends Component{
                                     <div class="col-lg-12">
                                         <div class="ltn__product-item ltn__product-item-3 text-center">
                                             <div class="product-img">
-                                                <a href="product-details.html"><img src="img/product/7.png" alt="#"/></a>
+                                                <Link to="/product-details"><img src="img/product/7.png" alt="#"/></Link>
                                                 <div class="product-badge">
                                                     <ul>
                                                         <li class="sale-badge">New</li>
@@ -1067,7 +1068,7 @@ class OurProducts extends Component{
                                                         <li><a href="#"><i class="far fa-star"></i></a></li>
                                                     </ul>
                                                 </div>
-                                                <h2 class="product-title"><a href="product-details.html">Orange Sliced Mix</a></h2>
+                                                <h2 class="product-title"><Link to="/product-details">Orange Sliced Mix</Link></h2>
                                                 <div class="product-price">
                                                     <span>$150.00</span>
                                                     <del>$180.00</del>
@@ -1076,7 +1077,7 @@ class OurProducts extends Component{
                                         </div>
                                         <div class="ltn__product-item ltn__product-item-3 text-center">
                                             <div class="product-img">
-                                                <a href="product-details.html"><img src="img/product/11.png" alt="#"/></a>
+                                                <Link to="/product-details"><img src="img/product/11.png" alt="#"/></Link>
                                                 <div class="product-badge">
                                                     <ul>
                                                         <li class="sale-badge">-19%</li>
@@ -1112,7 +1113,7 @@ class OurProducts extends Component{
                                                         <li class="review-total"> <a href="#"> (24)</a></li>
                                                     </ul>
                                                 </div>
-                                                <h2 class="product-title"><a href="product-details.html">Carrots Group Scal</a></h2>
+                                                <h2 class="product-title"><Link to="/product-details">Carrots Group Scal</Link></h2>
                                                 <div class="product-price">
                                                     <span>$32.00</span>
                                                     <del>$46.00</del>
@@ -1129,7 +1130,7 @@ class OurProducts extends Component{
                                     <div class="col-lg-12">
                                         <div class="ltn__product-item ltn__product-item-3 text-center">
                                             <div class="product-img">
-                                                <a href="product-details.html"><img src="img/product/6.png" alt="#"/></a>
+                                                <Link to="/product-details"><img src="img/product/6.png" alt="#"/></Link>
                                                 <div class="product-badge">
                                                     <ul>
                                                         <li class="sale-badge">-19%</li>
@@ -1165,7 +1166,7 @@ class OurProducts extends Component{
                                                         <li class="review-total"> <a href="#"> (24)</a></li>
                                                     </ul>
                                                 </div>
-                                                <h2 class="product-title"><a href="product-details.html">Carrots Group Scal</a></h2>
+                                                <h2 class="product-title"><Link to="/product-details">Carrots Group Scal</Link></h2>
                                                 <div class="product-price">
                                                     <span>$32.00</span>
                                                     <del>$46.00</del>
@@ -1174,7 +1175,7 @@ class OurProducts extends Component{
                                         </div>
                                         <div class="ltn__product-item ltn__product-item-3 text-center">
                                             <div class="product-img">
-                                                <a href="product-details.html"><img src="img/product/12.png" alt="#"/></a>
+                                                <Link to="/product-details"><img src="img/product/12.png" alt="#"/></Link>
                                                 <div class="product-badge">
                                                     <ul>
                                                         <li class="sale-badge">New</li>
@@ -1209,7 +1210,7 @@ class OurProducts extends Component{
                                                         <li><a href="#"><i class="far fa-star"></i></a></li>
                                                     </ul>
                                                 </div>
-                                                <h2 class="product-title"><a href="product-details.html">Poltry Farm Meat</a></h2>
+                                                <h2 class="product-title"><Link to="/product-details">Poltry Farm Meat</Link></h2>
                                                 <div class="product-price">
                                                     <span>$78.00</span>
                                                     <del>$85.00</del>
@@ -1220,7 +1221,7 @@ class OurProducts extends Component{
                                     <div class="col-lg-12">
                                         <div class="ltn__product-item ltn__product-item-3 text-center">
                                             <div class="product-img">
-                                                <a href="product-details.html"><img src="img/product/8.png" alt="#"/></a>
+                                                <Link to="/product-details"><img src="img/product/8.png" alt="#"/></Link>
                                                 <div class="product-badge">
                                                     <ul>
                                                         <li class="sale-badge">-19%</li>
@@ -1256,7 +1257,7 @@ class OurProducts extends Component{
                                                         <li class="review-total"> <a href="#"> (24)</a></li>
                                                     </ul>
                                                 </div>
-                                                <h2 class="product-title"><a href="product-details.html">Carrots Group Scal</a></h2>
+                                                <h2 class="product-title"><Link to="/product-details">Carrots Group Scal</Link></h2>
                                                 <div class="product-price">
                                                     <span>$32.00</span>
                                                     <del>$46.00</del>
@@ -1265,7 +1266,7 @@ class OurProducts extends Component{
                                         </div>
                                         <div class="ltn__product-item ltn__product-item-3 text-center">
                                             <div class="product-img">
-                                                <a href="product-details.html"><img src="img/product/15.png" alt="#"/></a>
+                                                <Link to="/product-details"><img src="img/product/15.png" alt="#"/></Link>
                                                 <div class="product-badge">
                                                     <ul>
                                                         <li class="sale-badge">New</li>
@@ -1300,7 +1301,7 @@ class OurProducts extends Component{
                                                         <li><a href="#"><i class="far fa-star"></i></a></li>
                                                     </ul>
                                                 </div>
-                                                <h2 class="product-title"><a href="product-details.html">Orange Sliced Mix</a></h2>
+                                                <h2 class="product-title"><Link to="/product-details">Orange Sliced Mix</Link></h2>
                                                 <div class="product-price">
                                                     <span>$150.00</span>
                                                     <del>$180.00</del>
@@ -1311,7 +1312,7 @@ class OurProducts extends Component{
                                     <div class="col-lg-12">
                                         <div class="ltn__product-item ltn__product-item-3 text-center">
                                             <div class="product-img">
-                                                <a href="product-details.html"><img src="img/product/9.png" alt="#"/></a>
+                                                <Link to="/product-details"><img src="img/product/9.png" alt="#"/></Link>
                                                 <div class="product-badge">
                                                     <ul>
                                                         <li class="sale-badge">New</li>
@@ -1346,7 +1347,7 @@ class OurProducts extends Component{
                                                         <li><a href="#"><i class="far fa-star"></i></a></li>
                                                     </ul>
                                                 </div>
-                                                <h2 class="product-title"><a href="product-details.html">Orange Fresh Juice</a></h2>
+                                                <h2 class="product-title"><Link to="/product-details">Orange Fresh Juice</Link></h2>
                                                 <div class="product-price">
                                                     <span>$75.00</span>
                                                     <del>$92.00</del>
@@ -1355,7 +1356,7 @@ class OurProducts extends Component{
                                         </div>
                                         <div class="ltn__product-item ltn__product-item-3 text-center">
                                             <div class="product-img">
-                                                <a href="product-details.html"><img src="img/product/11.png" alt="#"/></a>
+                                                <Link to="/product-details"><img src="img/product/11.png" alt="#"/></Link>
                                                 <div class="product-badge">
                                                     <ul>
                                                         <li class="sale-badge">-19%</li>
@@ -1391,7 +1392,7 @@ class OurProducts extends Component{
                                                         <li class="review-total"> <a href="#"> (24)</a></li>
                                                     </ul>
                                                 </div>
-                                                <h2 class="product-title"><a href="product-details.html">Carrots Group Scal</a></h2>
+                                                <h2 class="product-title"><Link to="/product-details">Carrots Group Scal</Link></h2>
                                                 <div class="product-price">
                                                     <span>$32.00</span>
                                                     <del>$46.00</del>
@@ -1402,7 +1403,7 @@ class OurProducts extends Component{
                                     <div class="col-lg-12">
                                         <div class="ltn__product-item ltn__product-item-3 text-center">
                                             <div class="product-img">
-                                                <a href="product-details.html"><img src="img/product/14.png" alt="#"/></a>
+                                                <Link to="/product-details"><img src="img/product/14.png" alt="#"/></Link>
                                                 <div class="product-badge">
                                                     <ul>
                                                         <li class="sale-badge">New</li>
@@ -1437,7 +1438,7 @@ class OurProducts extends Component{
                                                         <li><a href="#"><i class="far fa-star"></i></a></li>
                                                     </ul>
                                                 </div>
-                                                <h2 class="product-title"><a href="product-details.html">Poltry Farm Meat</a></h2>
+                                                <h2 class="product-title"><Link to="/product-details">Poltry Farm Meat</Link></h2>
                                                 <div class="product-price">
                                                     <span>$78.00</span>
                                                     <del>$85.00</del>
@@ -1446,7 +1447,7 @@ class OurProducts extends Component{
                                         </div>
                                         <div class="ltn__product-item ltn__product-item-3 text-center">
                                             <div class="product-img">
-                                                <a href="product-details.html"><img src="img/product/10.png" alt="#"/></a>
+                                                <Link to="/product-details"><img src="img/product/10.png" alt="#"/></Link>
                                                 <div class="product-badge">
                                                     <ul>
                                                         <li class="sale-badge">New</li>
@@ -1481,7 +1482,7 @@ class OurProducts extends Component{
                                                         <li><a href="#"><i class="far fa-star"></i></a></li>
                                                     </ul>
                                                 </div>
-                                                <h2 class="product-title"><a href="product-details.html">Orange Fresh Juice</a></h2>
+                                                <h2 class="product-title"><Link to="/product-details">Orange Fresh Juice</Link></h2>
                                                 <div class="product-price">
                                                     <span>$75.00</span>
                                                     <del>$92.00</del>
@@ -1492,7 +1493,7 @@ class OurProducts extends Component{
                                     <div class="col-lg-12">
                                         <div class="ltn__product-item ltn__product-item-3 text-center">
                                             <div class="product-img">
-                                                <a href="product-details.html"><img src="img/product/15.png" alt="#"/></a>
+                                                <Link to="/product-details"><img src="img/product/15.png" alt="#"/></Link>
                                                 <div class="product-badge">
                                                     <ul>
                                                         <li class="sale-badge">New</li>
@@ -1527,7 +1528,7 @@ class OurProducts extends Component{
                                                         <li><a href="#"><i class="far fa-star"></i></a></li>
                                                     </ul>
                                                 </div>
-                                                <h2 class="product-title"><a href="product-details.html">Fresh Butter Cake</a></h2>
+                                                <h2 class="product-title"><Link to="/product-details">Fresh Butter Cake</Link></h2>
                                                 <div class="product-price">
                                                     <span>$150.00</span>
                                                     <del>$180.00</del>
@@ -1536,7 +1537,7 @@ class OurProducts extends Component{
                                         </div>
                                         <div class="ltn__product-item ltn__product-item-3 text-center">
                                             <div class="product-img">
-                                                <a href="product-details.html"><img src="img/product/6.png" alt="#"/></a>
+                                                <Link to="/product-details"><img src="img/product/6.png" alt="#"/></Link>
                                                 <div class="product-badge">
                                                     <ul>
                                                         <li class="sale-badge">-19%</li>
@@ -1572,7 +1573,7 @@ class OurProducts extends Component{
                                                         <li class="review-total"> <a href="#"> (24)</a></li>
                                                     </ul>
                                                 </div>
-                                                <h2 class="product-title"><a href="product-details.html">Carrots Group Scal</a></h2>
+                                                <h2 class="product-title"><Link to="/product-details">Carrots Group Scal</Link></h2>
                                                 <div class="product-price">
                                                     <span>$32.00</span>
                                                     <del>$46.00</del>
@@ -1583,7 +1584,7 @@ class OurProducts extends Component{
                                     <div class="col-lg-12">
                                         <div class="ltn__product-item ltn__product-item-3 text-center">
                                             <div class="product-img">
-                                                <a href="product-details.html"><img src="img/product/7.png" alt="#"/></a>
+                                                <Link to="/product-details"><img src="img/product/7.png" alt="#"/></Link>
                                                 <div class="product-badge">
                                                     <ul>
                                                         <li class="sale-badge">New</li>
@@ -1618,7 +1619,7 @@ class OurProducts extends Component{
                                                         <li><a href="#"><i class="far fa-star"></i></a></li>
                                                     </ul>
                                                 </div>
-                                                <h2 class="product-title"><a href="product-details.html">Orange Sliced Mix</a></h2>
+                                                <h2 class="product-title"><Link to="/product-details">Orange Sliced Mix</Link></h2>
                                                 <div class="product-price">
                                                     <span>$150.00</span>
                                                     <del>$180.00</del>
@@ -1627,7 +1628,7 @@ class OurProducts extends Component{
                                         </div>
                                         <div class="ltn__product-item ltn__product-item-3 text-center">
                                             <div class="product-img">
-                                                <a href="product-details.html"><img src="img/product/11.png" alt="#"/></a>
+                                                <Link to="/product-details"><img src="img/product/11.png" alt="#"/></Link>
                                                 <div class="product-badge">
                                                     <ul>
                                                         <li class="sale-badge">-19%</li>
@@ -1663,7 +1664,7 @@ class OurProducts extends Component{
                                                         <li class="review-total"> <a href="#"> (24)</a></li>
                                                     </ul>
                                                 </div>
-                                                <h2 class="product-title"><a href="product-details.html">Carrots Group Scal</a></h2>
+                                                <h2 class="product-title"><Link to="/product-details">Carrots Group Scal</Link></h2>
                                                 <div class="product-price">
                                                     <span>$32.00</span>
                                                     <del>$46.00</del>
@@ -1680,7 +1681,7 @@ class OurProducts extends Component{
                                     <div class="col-lg-12">
                                         <div class="ltn__product-item ltn__product-item-3 text-center">
                                             <div class="product-img">
-                                                <a href="product-details.html"><img src="img/product/3.png" alt="#"/></a>
+                                                <Link to="/product-details"><img src="img/product/3.png" alt="#"/></Link>
                                                 <div class="product-badge">
                                                     <ul>
                                                         <li class="sale-badge">-19%</li>
@@ -1716,7 +1717,7 @@ class OurProducts extends Component{
                                                         <li class="review-total"> <a href="#"> (24)</a></li>
                                                     </ul>
                                                 </div>
-                                                <h2 class="product-title"><a href="product-details.html">Carrots Group Scal</a></h2>
+                                                <h2 class="product-title"><Link to="/product-details">Carrots Group Scal</Link></h2>
                                                 <div class="product-price">
                                                     <span>$32.00</span>
                                                     <del>$46.00</del>
@@ -1725,7 +1726,7 @@ class OurProducts extends Component{
                                         </div>
                                         <div class="ltn__product-item ltn__product-item-3 text-center">
                                             <div class="product-img">
-                                                <a href="product-details.html"><img src="img/product/5.png" alt="#"/></a>
+                                                <Link to="/product-details"><img src="img/product/5.png" alt="#"/></Link>
                                                 <div class="product-badge">
                                                     <ul>
                                                         <li class="sale-badge">New</li>
@@ -1760,7 +1761,7 @@ class OurProducts extends Component{
                                                         <li><a href="#"><i class="far fa-star"></i></a></li>
                                                     </ul>
                                                 </div>
-                                                <h2 class="product-title"><a href="product-details.html">Poltry Farm Meat</a></h2>
+                                                <h2 class="product-title"><Link to="/product-details">Poltry Farm Meat</Link></h2>
                                                 <div class="product-price">
                                                     <span>$78.00</span>
                                                     <del>$85.00</del>
@@ -1771,7 +1772,7 @@ class OurProducts extends Component{
                                     <div class="col-lg-12">
                                         <div class="ltn__product-item ltn__product-item-3 text-center">
                                             <div class="product-img">
-                                                <a href="product-details.html"><img src="img/product/2.png" alt="#"/></a>
+                                                <Link to="/product-details"><img src="img/product/2.png" alt="#"/></Link>
                                                 <div class="product-badge">
                                                     <ul>
                                                         <li class="sale-badge">-19%</li>
@@ -1807,7 +1808,7 @@ class OurProducts extends Component{
                                                         <li class="review-total"> <a href="#"> (24)</a></li>
                                                     </ul>
                                                 </div>
-                                                <h2 class="product-title"><a href="product-details.html">Carrots Group Scal</a></h2>
+                                                <h2 class="product-title"><Link to="/product-details">Carrots Group Scal</Link></h2>
                                                 <div class="product-price">
                                                     <span>$32.00</span>
                                                     <del>$46.00</del>
@@ -1816,7 +1817,7 @@ class OurProducts extends Component{
                                         </div>
                                         <div class="ltn__product-item ltn__product-item-3 text-center">
                                             <div class="product-img">
-                                                <a href="product-details.html"><img src="img/product/16.png" alt="#"/></a>
+                                                <Link to="/product-details"><img src="img/product/16.png" alt="#"/></Link>
                                                 <div class="product-badge">
                                                     <ul>
                                                         <li class="sale-badge">New</li>
@@ -1851,7 +1852,7 @@ class OurProducts extends Component{
                                                         <li><a href="#"><i class="far fa-star"></i></a></li>
                                                     </ul>
                                                 </div>
-                                                <h2 class="product-title"><a href="product-details.html">Orange Sliced Mix</a></h2>
+                                                <h2 class="product-title"><Link to="/product-details">Orange Sliced Mix</Link></h2>
                                                 <div class="product-price">
                                                     <span>$150.00</span>
                                                     <del>$180.00</del>
@@ -1862,7 +1863,7 @@ class OurProducts extends Component{
                                     <div class="col-lg-12">
                                         <div class="ltn__product-item ltn__product-item-3 text-center">
                                             <div class="product-img">
-                                                <a href="product-details.html"><img src="img/product/6.png" alt="#"/></a>
+                                                <Link to="/product-details"><img src="img/product/6.png" alt="#"/></Link>
                                                 <div class="product-badge">
                                                     <ul>
                                                         <li class="sale-badge">New</li>
@@ -1897,7 +1898,7 @@ class OurProducts extends Component{
                                                         <li><a href="#"><i class="far fa-star"></i></a></li>
                                                     </ul>
                                                 </div>
-                                                <h2 class="product-title"><a href="product-details.html">Orange Fresh Juice</a></h2>
+                                                <h2 class="product-title"><Link to="/product-details">Orange Fresh Juice</Link></h2>
                                                 <div class="product-price">
                                                     <span>$75.00</span>
                                                     <del>$92.00</del>
@@ -1906,7 +1907,7 @@ class OurProducts extends Component{
                                         </div>
                                         <div class="ltn__product-item ltn__product-item-3 text-center">
                                             <div class="product-img">
-                                                <a href="product-details.html"><img src="img/product/14.png" alt="#"/></a>
+                                                <Link to="/product-details"><img src="img/product/14.png" alt="#"/></Link>
                                                 <div class="product-badge">
                                                     <ul>
                                                         <li class="sale-badge">-19%</li>
@@ -1942,7 +1943,7 @@ class OurProducts extends Component{
                                                         <li class="review-total"> <a href="#"> (24)</a></li>
                                                     </ul>
                                                 </div>
-                                                <h2 class="product-title"><a href="product-details.html">Carrots Group Scal</a></h2>
+                                                <h2 class="product-title"><Link to="/product-details">Carrots Group Scal</Link></h2>
                                                 <div class="product-price">
                                                     <span>$32.00</span>
                                                     <del>$46.00</del>
@@ -1953,7 +1954,7 @@ class OurProducts extends Component{
                                     <div class="col-lg-12">
                                         <div class="ltn__product-item ltn__product-item-3 text-center">
                                             <div class="product-img">
-                                                <a href="product-details.html"><img src="img/product/14.png" alt="#"/></a>
+                                                <Link to="/product-details"><img src="img/product/14.png" alt="#"/></Link>
                                                 <div class="product-badge">
                                                     <ul>
                                                         <li class="sale-badge">New</li>
@@ -1988,7 +1989,7 @@ class OurProducts extends Component{
                                                         <li><a href="#"><i class="far fa-star"></i></a></li>
                                                     </ul>
                                                 </div>
-                                                <h2 class="product-title"><a href="product-details.html">Poltry Farm Meat</a></h2>
+                                                <h2 class="product-title"><Link to="/product-details">Poltry Farm Meat</Link></h2>
                                                 <div class="product-price">
                                                     <span>$78.00</span>
                                                     <del>$85.00</del>
@@ -1997,7 +1998,7 @@ class OurProducts extends Component{
                                         </div>
                                         <div class="ltn__product-item ltn__product-item-3 text-center">
                                             <div class="product-img">
-                                                <a href="product-details.html"><img src="img/product/10.png" alt="#"/></a>
+                                                <Link to="/product-details"><img src="img/product/10.png" alt="#"/></Link>
                                                 <div class="product-badge">
                                                     <ul>
                                                         <li class="sale-badge">New</li>
@@ -2032,7 +2033,7 @@ class OurProducts extends Component{
                                                         <li><a href="#"><i class="far fa-star"></i></a></li>
                                                     </ul>
                                                 </div>
-                                                <h2 class="product-title"><a href="product-details.html">Orange Fresh Juice</a></h2>
+                                                <h2 class="product-title"><Link to="/product-details">Orange Fresh Juice</Link></h2>
                                                 <div class="product-price">
                                                     <span>$75.00</span>
                                                     <del>$92.00</del>
@@ -2043,7 +2044,7 @@ class OurProducts extends Component{
                                     <div class="col-lg-12">
                                         <div class="ltn__product-item ltn__product-item-3 text-center">
                                             <div class="product-img">
-                                                <a href="product-details.html"><img src="img/product/15.png" alt="#"/></a>
+                                                <Link to="/product-details"><img src="img/product/15.png" alt="#"/></Link>
                                                 <div class="product-badge">
                                                     <ul>
                                                         <li class="sale-badge">New</li>
@@ -2078,7 +2079,7 @@ class OurProducts extends Component{
                                                         <li><a href="#"><i class="far fa-star"></i></a></li>
                                                     </ul>
                                                 </div>
-                                                <h2 class="product-title"><a href="product-details.html">Fresh Butter Cake</a></h2>
+                                                <h2 class="product-title"><Link to="/product-details">Fresh Butter Cake</Link></h2>
                                                 <div class="product-price">
                                                     <span>$150.00</span>
                                                     <del>$180.00</del>
@@ -2087,7 +2088,7 @@ class OurProducts extends Component{
                                         </div>
                                         <div class="ltn__product-item ltn__product-item-3 text-center">
                                             <div class="product-img">
-                                                <a href="product-details.html"><img src="img/product/6.png" alt="#"/></a>
+                                                <Link to="/product-details"><img src="img/product/6.png" alt="#"/></Link>
                                                 <div class="product-badge">
                                                     <ul>
                                                         <li class="sale-badge">-19%</li>
@@ -2123,7 +2124,7 @@ class OurProducts extends Component{
                                                         <li class="review-total"> <a href="#"> (24)</a></li>
                                                     </ul>
                                                 </div>
-                                                <h2 class="product-title"><a href="product-details.html">Carrots Group Scal</a></h2>
+                                                <h2 class="product-title"><Link to="/product-details">Carrots Group Scal</Link></h2>
                                                 <div class="product-price">
                                                     <span>$32.00</span>
                                                     <del>$46.00</del>
@@ -2134,7 +2135,7 @@ class OurProducts extends Component{
                                     <div class="col-lg-12">
                                         <div class="ltn__product-item ltn__product-item-3 text-center">
                                             <div class="product-img">
-                                                <a href="product-details.html"><img src="img/product/7.png" alt="#"/></a>
+                                                <Link to="/product-details"><img src="img/product/7.png" alt="#"/></Link>
                                                 <div class="product-badge">
                                                     <ul>
                                                         <li class="sale-badge">New</li>
@@ -2169,7 +2170,7 @@ class OurProducts extends Component{
                                                         <li><a href="#"><i class="far fa-star"></i></a></li>
                                                     </ul>
                                                 </div>
-                                                <h2 class="product-title"><a href="product-details.html">Orange Sliced Mix</a></h2>
+                                                <h2 class="product-title"><Link to="/product-details">Orange Sliced Mix</Link></h2>
                                                 <div class="product-price">
                                                     <span>$150.00</span>
                                                     <del>$180.00</del>
@@ -2178,7 +2179,7 @@ class OurProducts extends Component{
                                         </div>
                                         <div class="ltn__product-item ltn__product-item-3 text-center">
                                             <div class="product-img">
-                                                <a href="product-details.html"><img src="img/product/11.png" alt="#"/></a>
+                                                <Link to="/product-details"><img src="img/product/11.png" alt="#"/></Link>
                                                 <div class="product-badge">
                                                     <ul>
                                                         <li class="sale-badge">-19%</li>
@@ -2214,7 +2215,7 @@ class OurProducts extends Component{
                                                         <li class="review-total"> <a href="#"> (24)</a></li>
                                                     </ul>
                                                 </div>
-                                                <h2 class="product-title"><a href="product-details.html">Carrots Group Scal</a></h2>
+                                                <h2 class="product-title"><Link to="/product-details">Carrots Group Scal</Link></h2>
                                                 <div class="product-price">
                                                     <span>$32.00</span>
                                                     <del>$46.00</del>
@@ -2231,7 +2232,7 @@ class OurProducts extends Component{
                                     <div class="col-lg-12">
                                         <div class="ltn__product-item ltn__product-item-3 text-center">
                                             <div class="product-img">
-                                                <a href="product-details.html"><img src="img/product/7.png" alt="#"/></a>
+                                                <Link to="/product-details"><img src="img/product/7.png" alt="#"/></Link>
                                                 <div class="product-badge">
                                                     <ul>
                                                         <li class="sale-badge">-19%</li>
@@ -2267,7 +2268,7 @@ class OurProducts extends Component{
                                                         <li class="review-total"> <a href="#"> (24)</a></li>
                                                     </ul>
                                                 </div>
-                                                <h2 class="product-title"><a href="product-details.html">Carrots Group Scal</a></h2>
+                                                <h2 class="product-title"><Link to="/product-details">Carrots Group Scal</Link></h2>
                                                 <div class="product-price">
                                                     <span>$32.00</span>
                                                     <del>$46.00</del>
@@ -2276,7 +2277,7 @@ class OurProducts extends Component{
                                         </div>
                                         <div class="ltn__product-item ltn__product-item-3 text-center">
                                             <div class="product-img">
-                                                <a href="product-details.html"><img src="img/product/13.png" alt="#"/></a>
+                                                <Link to="/product-details"><img src="img/product/13.png" alt="#"/></Link>
                                                 <div class="product-badge">
                                                     <ul>
                                                         <li class="sale-badge">New</li>
@@ -2311,7 +2312,7 @@ class OurProducts extends Component{
                                                         <li><a href="#"><i class="far fa-star"></i></a></li>
                                                     </ul>
                                                 </div>
-                                                <h2 class="product-title"><a href="product-details.html">Poltry Farm Meat</a></h2>
+                                                <h2 class="product-title"><Link to="/product-details">Poltry Farm Meat</Link></h2>
                                                 <div class="product-price">
                                                     <span>$78.00</span>
                                                     <del>$85.00</del>
@@ -2322,7 +2323,7 @@ class OurProducts extends Component{
                                     <div class="col-lg-12">
                                         <div class="ltn__product-item ltn__product-item-3 text-center">
                                             <div class="product-img">
-                                                <a href="product-details.html"><img src="img/product/5.png" alt="#"/></a>
+                                                <Link to="/product-details"><img src="img/product/5.png" alt="#"/></Link>
                                                 <div class="product-badge">
                                                     <ul>
                                                         <li class="sale-badge">-19%</li>
@@ -2358,7 +2359,7 @@ class OurProducts extends Component{
                                                         <li class="review-total"> <a href="#"> (24)</a></li>
                                                     </ul>
                                                 </div>
-                                                <h2 class="product-title"><a href="product-details.html">Carrots Group Scal</a></h2>
+                                                <h2 class="product-title"><Link to="/product-details">Carrots Group Scal</Link></h2>
                                                 <div class="product-price">
                                                     <span>$32.00</span>
                                                     <del>$46.00</del>
@@ -2367,7 +2368,7 @@ class OurProducts extends Component{
                                         </div>
                                         <div class="ltn__product-item ltn__product-item-3 text-center">
                                             <div class="product-img">
-                                                <a href="product-details.html"><img src="img/product/15.png" alt="#"/></a>
+                                                <Link to="/product-details"><img src="img/product/15.png" alt="#"/></Link>
                                                 <div class="product-badge">
                                                     <ul>
                                                         <li class="sale-badge">New</li>
@@ -2402,7 +2403,7 @@ class OurProducts extends Component{
                                                         <li><a href="#"><i class="far fa-star"></i></a></li>
                                                     </ul>
                                                 </div>
-                                                <h2 class="product-title"><a href="product-details.html">Orange Sliced Mix</a></h2>
+                                                <h2 class="product-title"><Link to="/product-details">Orange Sliced Mix</Link></h2>
                                                 <div class="product-price">
                                                     <span>$150.00</span>
                                                     <del>$180.00</del>
@@ -2413,7 +2414,7 @@ class OurProducts extends Component{
                                     <div class="col-lg-12">
                                         <div class="ltn__product-item ltn__product-item-3 text-center">
                                             <div class="product-img">
-                                                <a href="product-details.html"><img src="img/product/9.png" alt="#"/></a>
+                                                <Link to="/product-details"><img src="img/product/9.png" alt="#"/></Link>
                                                 <div class="product-badge">
                                                     <ul>
                                                         <li class="sale-badge">New</li>
@@ -2448,7 +2449,7 @@ class OurProducts extends Component{
                                                         <li><a href="#"><i class="far fa-star"></i></a></li>
                                                     </ul>
                                                 </div>
-                                                <h2 class="product-title"><a href="product-details.html">Orange Fresh Juice</a></h2>
+                                                <h2 class="product-title"><Link to="/product-details">Orange Fresh Juice</Link></h2>
                                                 <div class="product-price">
                                                     <span>$75.00</span>
                                                     <del>$92.00</del>
@@ -2457,7 +2458,7 @@ class OurProducts extends Component{
                                         </div>
                                         <div class="ltn__product-item ltn__product-item-3 text-center">
                                             <div class="product-img">
-                                                <a href="product-details.html"><img src="img/product/14.png" alt="#"/></a>
+                                                <Link to="/product-details"><img src="img/product/14.png" alt="#"/></Link>
                                                 <div class="product-badge">
                                                     <ul>
                                                         <li class="sale-badge">-19%</li>
@@ -2493,7 +2494,7 @@ class OurProducts extends Component{
                                                         <li class="review-total"> <a href="#"> (24)</a></li>
                                                     </ul>
                                                 </div>
-                                                <h2 class="product-title"><a href="product-details.html">Carrots Group Scal</a></h2>
+                                                <h2 class="product-title"><Link to="/product-details">Carrots Group Scal</Link></h2>
                                                 <div class="product-price">
                                                     <span>$32.00</span>
                                                     <del>$46.00</del>
@@ -2504,7 +2505,7 @@ class OurProducts extends Component{
                                     <div class="col-lg-12">
                                         <div class="ltn__product-item ltn__product-item-3 text-center">
                                             <div class="product-img">
-                                                <a href="product-details.html"><img src="img/product/12.png" alt="#"/></a>
+                                                <Link to="/product-details"><img src="img/product/12.png" alt="#"/></Link>
                                                 <div class="product-badge">
                                                     <ul>
                                                         <li class="sale-badge">New</li>
@@ -2539,7 +2540,7 @@ class OurProducts extends Component{
                                                         <li><a href="#"><i class="far fa-star"></i></a></li>
                                                     </ul>
                                                 </div>
-                                                <h2 class="product-title"><a href="product-details.html">Poltry Farm Meat</a></h2>
+                                                <h2 class="product-title"><Link to="/product-details">Poltry Farm Meat</Link></h2>
                                                 <div class="product-price">
                                                     <span>$78.00</span>
                                                     <del>$85.00</del>
@@ -2548,7 +2549,7 @@ class OurProducts extends Component{
                                         </div>
                                         <div class="ltn__product-item ltn__product-item-3 text-center">
                                             <div class="product-img">
-                                                <a href="product-details.html"><img src="img/product/10.png" alt="#"/></a>
+                                                <Link to="/product-details"><img src="img/product/10.png" alt="#"/></Link>
                                                 <div class="product-badge">
                                                     <ul>
                                                         <li class="sale-badge">New</li>
@@ -2583,7 +2584,7 @@ class OurProducts extends Component{
                                                         <li><a href="#"><i class="far fa-star"></i></a></li>
                                                     </ul>
                                                 </div>
-                                                <h2 class="product-title"><a href="product-details.html">Orange Fresh Juice</a></h2>
+                                                <h2 class="product-title"><Link to="/product-details">Orange Fresh Juice</Link></h2>
                                                 <div class="product-price">
                                                     <span>$75.00</span>
                                                     <del>$92.00</del>
@@ -2594,7 +2595,7 @@ class OurProducts extends Component{
                                     <div class="col-lg-12">
                                         <div class="ltn__product-item ltn__product-item-3 text-center">
                                             <div class="product-img">
-                                                <a href="product-details.html"><img src="img/product/15.png" alt="#"/></a>
+                                                <Link to="/product-details"><img src="img/product/15.png" alt="#"/></Link>
                                                 <div class="product-badge">
                                                     <ul>
                                                         <li class="sale-badge">New</li>
@@ -2629,7 +2630,7 @@ class OurProducts extends Component{
                                                         <li><a href="#"><i class="far fa-star"></i></a></li>
                                                     </ul>
                                                 </div>
-                                                <h2 class="product-title"><a href="product-details.html">Fresh Butter Cake</a></h2>
+                                                <h2 class="product-title"><Link to="/product-details">Fresh Butter Cake</Link></h2>
                                                 <div class="product-price">
                                                     <span>$150.00</span>
                                                     <del>$180.00</del>
@@ -2638,7 +2639,7 @@ class OurProducts extends Component{
                                         </div>
                                         <div class="ltn__product-item ltn__product-item-3 text-center">
                                             <div class="product-img">
-                                                <a href="product-details.html"><img src="img/product/6.png" alt="#"/></a>
+                                                <Link to="/product-details"><img src="img/product/6.png" alt="#"/></Link>
                                                 <div class="product-badge">
                                                     <ul>
                                                         <li class="sale-badge">-19%</li>
@@ -2674,7 +2675,7 @@ class OurProducts extends Component{
                                                         <li class="review-total"> <a href="#"> (24)</a></li>
                                                     </ul>
                                                 </div>
-                                                <h2 class="product-title"><a href="product-details.html">Carrots Group Scal</a></h2>
+                                                <h2 class="product-title"><Link to="/product-details">Carrots Group Scal</Link></h2>
                                                 <div class="product-price">
                                                     <span>$32.00</span>
                                                     <del>$46.00</del>
@@ -2685,7 +2686,7 @@ class OurProducts extends Component{
                                     <div class="col-lg-12">
                                         <div class="ltn__product-item ltn__product-item-3 text-center">
                                             <div class="product-img">
-                                                <a href="product-details.html"><img src="img/product/7.png" alt="#"/></a>
+                                                <Link to="/product-details"><img src="img/product/7.png" alt="#"/></Link>
                                                 <div class="product-badge">
                                                     <ul>
                                                         <li class="sale-badge">New</li>
@@ -2720,7 +2721,7 @@ class OurProducts extends Component{
                                                         <li><a href="#"><i class="far fa-star"></i></a></li>
                                                     </ul>
                                                 </div>
-                                                <h2 class="product-title"><a href="product-details.html">Orange Sliced Mix</a></h2>
+                                                <h2 class="product-title"><Link to="/product-details">Orange Sliced Mix</Link></h2>
                                                 <div class="product-price">
                                                     <span>$150.00</span>
                                                     <del>$180.00</del>
@@ -2729,7 +2730,7 @@ class OurProducts extends Component{
                                         </div>
                                         <div class="ltn__product-item ltn__product-item-3 text-center">
                                             <div class="product-img">
-                                                <a href="product-details.html"><img src="img/product/11.png" alt="#"/></a>
+                                                <Link to="/product-details"><img src="img/product/11.png" alt="#"/></Link>
                                                 <div class="product-badge">
                                                     <ul>
                                                         <li class="sale-badge">-19%</li>
@@ -2765,7 +2766,7 @@ class OurProducts extends Component{
                                                         <li class="review-total"> <a href="#"> (24)</a></li>
                                                     </ul>
                                                 </div>
-                                                <h2 class="product-title"><a href="product-details.html">Carrots Group Scal</a></h2>
+                                                <h2 class="product-title"><Link to="/product-details">Carrots Group Scal</Link></h2>
                                                 <div class="product-price">
                                                     <span>$32.00</span>
                                                     <del>$46.00</del>

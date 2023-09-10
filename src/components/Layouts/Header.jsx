@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
+
 class Header extends Component {
     render() { 
         return (
@@ -165,26 +167,28 @@ class Header extends Component {
                                     <nav>
                                         <div className="ltn__main-menu">
                                             <ul>
-                                                <li><a href="#">Home</a> </li>
-                                                <li><a href="#">About</a></li>
+                                                <li><Link to="/">Home</Link> </li>
+                                                <li><Link to="/about">About</Link></li>
                                                 <li className="menu-icon"><a href="#">Shop</a>
                                                     <ul>
-                                                        <li><a href="shop.html">Vegetables</a></li>
-                                                        <li><a href="shop-grid.html">Fruits</a></li>
-                                                        <li><a href="shop-left-sidebar.html">Cereals</a></li>
-                                                        <li><a href="shop-right-sidebar.html">Root Tubers</a></li>
-                                                        <li><a href="product-details.html">Stem Tubers </a></li>
-                                                        <li><a href="product-details-no-sidebar.html">Legumes </a></li>
-                                                        <li><a href="product-details-no-sidebar.html">Animals </a></li>
-                                                        <li><a href="product-details-no-sidebar.html">Birds </a></li>
-                                                        <li><a href="product-details-no-sidebar.html">Fish </a></li>
+                                                        <li><Link to="/vegetables">Vegetables</Link></li>
+                                                        <li><Link to="/fruits">Fruits</Link></li>
+                                                        <li><Link to="/cereals">Cereals</Link></li>
+                                                        <li><Link to="/root-tubers">Root Tubers</Link></li>
+                                                        <li><Link to="/stem-tubers">Stem Tubers </Link></li>
+                                                        <li><Link to="/legumes">Legumes </Link></li>
+                                                        <li><Link to="/animals">Animals </Link></li>
+                                                        <li><Link to="/birds">Birds </Link></li>
+                                                        <li><Link to="/fish">Fish </Link></li>
                                                     </ul>
                                                 </li>
-                                                <li><a href="#">Equipments</a></li>
-                                                <li><a href="#">Others</a></li>
-                                                <li><a href="#">Gallery</a></li>
-                                                <li><a href="#">News</a></li>
-                                                <li><a href="http://localhost:8000/">Login | Register Now</a></li>
+                                                <li><Link to="/equipments">Equipments</Link></li>
+                                                <li><Link to="/others">Others</Link></li>
+                                                <li><Link to="/gallery">Gallery</Link></li>
+                                                <li><Link to="/news">News</Link></li>
+                                                <li><Link to="/farming-tips">Farming Tips</Link></li>
+                                                <li><Link to="/register">Register</Link></li>
+                                                <li><a href="http://localhost:8000/">Login</a></li>
                                             </ul>
                                         </div>
                                     </nav>

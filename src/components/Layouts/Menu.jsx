@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import { Link } from 'react-router-dom';
+
 class Menu extends Component {
     render(){
         return (
@@ -18,27 +20,31 @@ class Menu extends Component {
                 </div>
                 <div className="ltn__utilize-menu">
                     <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
+                        <li><Link to="/">Home</Link></li>
+                        <li><Link to="/about">About</Link></li>
                         <li><a href="#">Shop Now</a>
                             <ul className="sub-menu">
-                                <li><a href="shop.html">Shop</a></li>
-                                <li><a href="shop-grid.html">Shop Grid</a></li>
-                                <li><a href="shop-left-sidebar.html">Shop Left sidebar</a></li>
-                                <li><a href="shop-right-sidebar.html">Shop right sidebar</a></li>
-                                <li><a href="product-details.html">Shop details </a></li>
-                                <li><a href="cart.html">Cart</a></li>
-                                <li><a href="wishlist.html">Wishlist</a></li>
-                                <li><a href="checkout.html">Checkout</a></li>
-                                <li><a href="order-tracking.html">Order Tracking</a></li>
+                                <li><Link to="/vegetables">Vegetables</Link></li>
+                                <li><Link to="/fruits">Fruits</Link></li>
+                                <li><Link to="/cereals">Cereals</Link></li>
+                                <li><Link to="/root-tubers">Root Tubers</Link></li>
+                                <li><Link to="/stem-tubers">Stem Tubers </Link></li>
+                                <li><Link to="/animals">Animals</Link></li>
+                                <li><Link to="/birds">Birds</Link></li>
+                                <li><Link to="/legumes">Legumes</Link></li>
+                                <li><Link to="/fish">Fish</Link></li>
                                 <li><a href="account.html">My Account</a></li>
                                 <li><a href="login.html">Sign in</a></li>
                                 <li><a href="register.html">Register</a></li>
                             </ul>
                         </li>
-                        <li><a href="#">Gallery</a></li>
-                        <li><a href="#">Equipments</a></li>
-                        <li><a href="http://localhost:8000">Login | Register Now</a></li>
+                        <li><Link to="/equipments">Equipments</Link></li>
+                        <li><Link to="/others">Others</Link></li>
+                        <li><Link to="/gallery">Gallery</Link></li>
+                        <li><Link to="/news">News</Link></li>
+                        <li><Link to="/farming-tips">Farming Tips</Link></li>
+                        <li><Link to="/register">Register</Link></li>
+                        <li><a href="http://localhost:8000">Login</a></li>
                     </ul>
                 </div>
                 <div className="ltn__utilize-buttons ltn__utilize-buttons-2">

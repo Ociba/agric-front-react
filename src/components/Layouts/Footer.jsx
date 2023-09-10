@@ -11,10 +11,9 @@ class Footer extends Component {
                                 <div class="footer-widget footer-about-widget">
                                     <div class="footer-logo mb-10">
                                         <div class="site-logo">
-                                            <img src="img/logo.png" alt="Logo"/>
+                                        <img src="logo2.png" style={{borderRadius:'50%',height:'100px',with:'100px'}} alt="Logo"/>
                                         </div>
                                     </div>
-                                    <p>Lorem Ipsum is simply dummy text of the and typesetting industry. Lorem Ipsum is dummy text of the printing.</p>
                                     <div class="footer-address">
                                         <ul>
                                             <li>
